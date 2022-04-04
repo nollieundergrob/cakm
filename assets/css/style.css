@@ -26,5 +26,44 @@ body{
     font-size: 16px;
     line-height: 22px;
     color: #45525B;
+    background: #FAFAFA;
+border-radius: 0px;
 }
-
+.header{
+    background-color: #fff;
+}
+.header_wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.header_container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu_list
+{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.menu_link
+{
+    color: black;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #353732;
+border-bottom: 1px solid transparent;
+padding-bottom: 5px;
+transition: 0.3s;
+}
+.menu_link:hover
+{
+    border-bottom: 1px solid #000;
+}
