@@ -19,12 +19,12 @@
 }
 body{
     font-family: "Georgia";
+    overflow-x: hidden;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
 }
-.containerH{
-    width: 1200px;
-    margin: 0 auto;
-}
-.container{
-    width: 800px;
-    margin: 0 auto;
-}
+
